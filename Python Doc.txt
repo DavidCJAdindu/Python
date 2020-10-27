@@ -1,0 +1,103 @@
+~ Data Types
+# Int
+-2893737
+38373737
+# Float 
+-93.3
+309.333
+# String
+"hello world"
+'hello world'
+'3.3'
+# Bool
+True 
+False
+
+
+~ Output
+# print("hello world!")
+# print(2, "name")
+print something to the console.
+
+
+~ Variables
+# hello = "hello world!"
+to create a variable use key value pair.
+cannot start with a number & (_underscore) only, e.g hello_world.
+
+
+~ Input
+# name = input('Name: ')
+to collect user input store input in a variable.
+
+
+~ Conditionals (if/else/elif)
+# num1 = 2
+# num2 = 3
+
+# if num1 > num2:
+#  print("hello")
+# else:
+#  print("world") 
+elif can be used for multiple statements but can only come after an if & before an else.
+
+
+~ Lists & Tuples
+# x = [4, True, "hi", 66.43]
+Lists are an ordered collection.
+
+# x = (0,0,2,2)
+Tuples are immutable lists.
+
+
+~ For Loops
+# fruits = ["apple", "banana", "cherry"]
+# for x in fruits:
+#  print(x)
+loops through and prints the list - apple, banana, cherry
+
+
+~ While Loops
+# i = 1
+# while i < 6:
+#  print(i)
+#  i += 1
+while the condition is true it prints the loop - 1,2,3,4,5 
+
+
+~ Dictionaries
+# x = {'key': 4}
+key value data types.
+
+
+~ Functions
+# def func():
+#  print('Hello World')
+
+# func()
+create and call the function with this syntax.
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
