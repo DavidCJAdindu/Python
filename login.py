@@ -12,13 +12,23 @@ Create a basic login system in your python console. It should be able to ask the
 # --------------------------------------------------------------------------------
 
 
-login_ = input("Do you want to login? (Y/N)").lower()
+account = input("Do you want to create an account? (Y/N) \n").lower()
+
+if account == "no":
+ username = input("Username: ")
+ password = input("Password: ")
+ print("username: ", username.upper(), "password: ", password.upper()) 
+
+
+
+
 
 
  
  
 
-create_ = input("Do you want to create an account?")
+
+
 
 
 
