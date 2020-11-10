@@ -9,15 +9,32 @@ Create a basic login system in your python console. It should be able to ask the
 # validate to see if two password are correct
 # store the data in a text file 
 
-# --------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------
 
 
-account = input("Do you want to create an account? (Y/N) \n").lower()
+account = input("Do you want to create an account? (Y/N) \n")
 
-if account == "no":
+if account == "N" or account == "n":
  username = input("Username: ")
  password = input("Password: ")
- print("username: ", username.upper(), "password: ", password.upper()) 
+
+ print("")
+
+ print("username: " + username.upper() + "\npassword: " + password.upper())  
+
+if account == "Y" or account == "y":
+ create_username = input("Username: ")
+ create_email = input("Email: ")
+ if "@" in create_email == false:
+   create_email = input("Please enter a valid email address: ")
+ create_password = input("Password: ")
+
+   
+
+ print("")
+
+
+ print("username: " + create_username.upper() + "\nemail: " + create_email.upper() + "\npassword: " + create_password.upper()) 
 
 
 
