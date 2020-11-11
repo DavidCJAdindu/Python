@@ -22,14 +22,15 @@ if account == "N" or account == "n":
 
  print("username: " + username.upper() + "\npassword: " + password.upper())  
 
+
+
+
 if account == "Y" or account == "y":
  create_username = input("Username: ")
  create_email = input("Email: ")
- if "@" in create_email == false:
+ if "@" not in create_email:
    create_email = input("Please enter a valid email address: ")
  create_password = input("Password: ")
-
-   
 
  print("")
 
